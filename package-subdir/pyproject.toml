@@ -5,5 +5,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools_scm]
 local_scheme = "dirty-tag"
 version_scheme = "no-guess-dev"
-write_to = "src/demo_package/_version.py"
+root = '..'
+write_to = "package-subdir/src/demo_package/_version.py"
+
 
